@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>awake-icon-3.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="awake-icon-3.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="awake-icon-3.ico" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+
+</Project>

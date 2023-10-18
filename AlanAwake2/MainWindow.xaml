@@ -1,0 +1,13 @@
+﻿<Window x:Class="MouseMoverGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Alan Awake 2.1" Height="200" Width="300">
+    <!-- ="awake-icon-3.ico"-->
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="14,13,0,0">
+            <Button Name="btnStartStop" Content="Start" Width="100" Click="BtnStartStop_Click" Margin="0,0,0,10"/>
+            <Label Name="lblElapsedTime" Content="Elapsed Time: 00:00:00" />
+        </StackPanel>
+    </Grid>
+</Window>
